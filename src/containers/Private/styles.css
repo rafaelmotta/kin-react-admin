@@ -1,0 +1,13 @@
+.private-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%; }
+
+.private-inner {
+  flex: 1; }
+
+.content-container {
+  height: 100%;
+  flex: 10;
+  padding: 15px;
+  overflow-y: auto; }

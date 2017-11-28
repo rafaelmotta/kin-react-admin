@@ -1,0 +1,6 @@
+.default-page-container {
+  height: 100%; }
+  .default-page-container .content-inner {
+    height: 100%; }
+    .default-page-container .content-inner.content-inner-with-topbar {
+      margin-top: 30px; }

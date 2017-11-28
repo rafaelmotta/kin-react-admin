@@ -1,0 +1,40 @@
+@import '../../extensions/bootstrap-variables.scss';
+
+.topbar-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: $navbar-default-bg;
+  margin: -$grid-gutter-width / 2;
+  padding: $grid-gutter-width / 4;
+  flex-direction: row;
+  justify-content: space-between;
+
+  > div {
+    display: flex;
+  }
+
+  .topbar-inner {
+    padding-left: $grid-gutter-width / 2;
+
+    i {
+      font-size: 14px;
+      position: relative;
+      top: 3px;
+    }
+
+    i, span {
+      color: $navbar-default-color;
+    }
+
+    span {
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+
+  .btn-sm {
+    margin-top: -3px;
+    margin-bottom: -4px;
+  }
+}

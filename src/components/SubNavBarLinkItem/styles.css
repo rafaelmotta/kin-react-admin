@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+.subnavbar-link-item {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+  text-decoration: none !important; }
+  .subnavbar-link-item:hover {
+    background-color: #E9E9E9; }
+    .subnavbar-link-item:hover .label, .subnavbar-link-item:hover i {
+      color: #333;
+      opacity: 1; }
+  .subnavbar-link-item .label {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #555; }
+  .subnavbar-link-item small {
+    color: #555;
+    display: block; }
+  .subnavbar-link-item i {
+    font-size: 18px;
+    color: #555;
+    position: relative;
+    top: 8px; }
+
+.subnavbar-link-item-active {
+  background-color: #E9E9E9; }
+  .subnavbar-link-item-active:hover .label {
+    color: #084B9B; }
+  .subnavbar-link-item-active .label, .subnavbar-link-item-active i {
+    opacity: 1;
+    color: #333; }
+  .subnavbar-link-item-active .label {
+    color: #084B9B; }

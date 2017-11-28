@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+.main-navbar-container {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 85px;
+  background-color: #084B9B; }
+  .main-navbar-container .main-navbar-top, .main-navbar-container .main-navbar-bottom {
+    display: flex;
+    flex-direction: column; }

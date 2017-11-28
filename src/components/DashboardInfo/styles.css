@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+.dashboard-info-container {
+  padding-bottom: 10px; }
+  .dashboard-info-container .title {
+    margin-top: 0;
+    color: #333333; }
+  .dashboard-info-container .value {
+    color: #b3b3b3;
+    font-size: 45px; }
+  .dashboard-info-container .label {
+    color: #b3b3b3;
+    font-size: 14px; }

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+.session-container {
+  text-align: center; }
+  .session-container .brand {
+    width: 150px;
+    margin-top: 100px;
+    padding-bottom: 30px; }
+  .session-container .session-inner {
+    padding: 15px;
+    width: 370px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden; }
+  .session-container h3 {
+    text-align: center;
+    padding-bottom: 30px; }
+  .session-container input {
+    margin-bottom: 15px; }
+  .session-container a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px; }

@@ -1,0 +1,28 @@
+@import '../../extensions/bootstrap-variables.scss';
+
+.dashboard-container {
+  height: 100%;
+
+  .alert i {
+    margin-right: 5px;
+  }
+
+  .dashboard-card {
+    background-color: #fff;
+    border-radius: $border-radius-base;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .doughnut-chart-container {
+    padding-bottom: $grid-gutter-width;
+  }
+
+  .line-chart-container {
+    clear: left;
+  }
+
+  .info-container {
+    padding-bottom: $grid-gutter-width;
+    margin-left: $grid-gutter-width;
+  }
+}

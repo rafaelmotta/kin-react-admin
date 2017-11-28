@@ -1,0 +1,18 @@
+@import '../../extensions/bootstrap-variables.scss';
+
+.subnavbar-container {
+  flex: 2.5;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: $navbar-inverse-bg;
+  border-left: 1px solid $navbar-inverse-border;
+  border-right: 1px solid $navbar-inverse-border;
+
+  > div:not(.subnavbar-brand) {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    width: 100%;
+  }
+}

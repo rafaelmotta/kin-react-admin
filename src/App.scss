@@ -1,0 +1,51 @@
+@import './../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-compass';
+@import './extensions/bootstrap-variables.scss';
+@import './../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+
+html,
+body,
+.app-container,
+#root,
+.container {
+  overflow: hidden;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.page-content {
+  height: 100%;
+  margin-top: $grid-gutter-width;
+}
+
+table {
+  td > button {
+    margin-right: 5px;
+  }
+
+  button > i {
+    margin-right: 0;
+  }
+
+  a > label {
+    cursor: pointer;
+  }
+}
+
+button > i {
+  margin-right: 5px;
+}
+
+.loading-bar {
+  background-color: red;
+}
+
+.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutter > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}

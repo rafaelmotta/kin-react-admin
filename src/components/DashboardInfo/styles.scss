@@ -1,0 +1,18 @@
+@import '../../extensions/bootstrap-variables.scss';
+
+.dashboard-info-container {
+  padding-bottom: $grid-gutter-width / 3;
+
+  .title {
+    margin-top: 0;
+    color: $text-color;
+  }
+  .value {
+    color: $gray-light;
+    font-size: 45px;
+  }
+  .label {
+    color: $gray-light;
+    font-size: $font-size-base;
+  }
+}

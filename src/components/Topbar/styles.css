@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+.topbar-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: #084B9B;
+  margin: -15px;
+  padding: 7.5px;
+  flex-direction: row;
+  justify-content: space-between; }
+  .topbar-container > div {
+    display: flex; }
+  .topbar-container .topbar-inner {
+    padding-left: 15px; }
+    .topbar-container .topbar-inner i {
+      font-size: 14px;
+      position: relative;
+      top: 3px; }
+    .topbar-container .topbar-inner i, .topbar-container .topbar-inner span {
+      color: #FFF; }
+    .topbar-container .topbar-inner span {
+      font-size: 16px;
+      font-weight: 300; }
+  .topbar-container .btn-sm {
+    margin-top: -3px;
+    margin-bottom: -4px; }

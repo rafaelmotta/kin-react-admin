@@ -1,0 +1,17 @@
+@import '../../extensions/bootstrap-variables.scss';
+
+.no-results-container {
+  text-align: center;
+
+  .fa {
+    color: $brand-secondary;
+    font-size: 62px;
+    margin-bottom: 10px;
+  }
+
+  .no-results-text {
+    font-size: 18px;
+    color: #999;
+    font-weight: 300;
+  }
+}

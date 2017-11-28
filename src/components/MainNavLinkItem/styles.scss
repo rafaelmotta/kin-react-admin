@@ -1,0 +1,32 @@
+@import '../../extensions/bootstrap-variables.scss';
+
+
+.main-nav-link-item {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: $navbar-padding-vertical $navbar-padding-horizontal;
+  text-align: left;
+  width: 100%;
+  text-decoration: none !important;
+
+  &:hover {
+    i {
+      color: $navbar-default-link-hover-color;
+      opacity: .9;
+    }
+  }
+
+  i {
+    font-size: $navbar-default-icon-size;
+    color: $navbar-default-link-color;
+    opacity: .5;
+  }
+}
+
+.main-nav-link-item-active {
+  i {
+    color: $navbar-default-link-active-color;
+    opacity: 1;
+  }
+}
